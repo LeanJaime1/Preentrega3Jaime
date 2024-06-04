@@ -1,0 +1,337 @@
+/*MOBILE*/
+@media all and (min-width: 320px) and (max-width: 768px) {
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  /*videos*/
+  .videos {
+    width: 350px;
+    height: 250px;
+  }
+  /*ps4*/
+  .ps4-container {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .container-nosotros {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+/*TABLET*/
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .container-nosotros {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+/*botones*/
+.botones {
+  background-color: rgb(255, 107, 21);
+}
+
+.botones:hover {
+  color: rgb(255, 107, 21);
+}
+
+.botones {
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+
+/*footer*/
+footer ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+footer a img {
+  width: 30px;
+  height: 30px;
+}
+
+/*generales*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+
+/*nav*/
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  -webkit-text-decoration: underline 3px rgb(255, 107, 21);
+          text-decoration: underline 3px rgb(255, 107, 21);
+  transform: translateY(-2px);
+}
+
+/*botones*/
+.botones:hover {
+  background-color: white;
+  color: rgb(255, 107, 21);
+  border: solid rgb(255, 107, 21) 1px;
+  transition: all 0.5s ease;
+}
+
+/*index*/
+.imagen-banner {
+  width: 100vw;
+  max-width: 100%;
+  min-width: 320;
+  margin: 10px 0px;
+}
+
+.imagen-banner img {
+  width: 100%;
+}
+
+.contenido-card {
+  text-align: center;
+  margin: 50px;
+}
+
+.ps5-card {
+  border: none;
+  margin: 50px 0px;
+}
+
+#juegos-varios {
+  background-color: black;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+#juegos-varios h3 {
+  color: white;
+}
+
+#juegos-varios h2 {
+  color: white;
+}
+
+#juegos-varios img {
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.card-img-top:hover {
+  transform: translateY(-5px);
+}
+
+#juegos-varios h3 {
+  font-size: 15px;
+}
+
+/*juegos*/
+#texto-ultimas-noticias {
+  text-align: center;
+}
+
+.container-juegos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.juegos-items {
+  width: 325px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0px, 2px, 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.juegos-items img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.juegos-texto {
+  padding: 20px;
+  text-align: center;
+}
+
+/*noticias*/
+.blog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-items {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.img-blog {
+  width: 500px;
+}
+
+.blog-body {
+  text-align: center;
+}
+
+/*accesorios*/
+.intro-accesorios {
+  text-align: center;
+}
+
+.intro-accesorios h1 {
+  margin: 50px;
+}
+
+.container-accesorios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.accesorios-card {
+  width: 325px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.accesorios-card img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.accesorios-texto {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/*nosotros*/
+.banner-nosotros {
+  width: 100%;
+  height: 500px;
+}
+
+.nosotros-intro {
+  text-align: center;
+}
+
+.img-productos-nosotros {
+  width: 100%;
+}
+
+.container-nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+/*ps4*/
+.ps4-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.ps4-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.container-hits {
+  display: flex;
+  align-items: baseline;
+}
+
+.hits-item {
+  border: 0px white;
+}
+
+.ps4-texto {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*footer*/
+footer {
+  background-color: rgb(181, 184, 184);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 100px;
+  max-height: 100px;
+  width: 100%;
+  padding: 50px 20px;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.iconos-footer {
+  margin: 0px 10px;
+}
+
+.iconos-footer img:hover {
+  transform: translateY(-2px);
+}
+
+/*juegos*/
+#box-video {
+  background-color: rgb(119, 118, 117);
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+
+#video {
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}/*# sourceMappingURL=style.css.map */
