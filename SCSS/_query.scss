@@ -1,0 +1,46 @@
+/*MOBILE*/
+
+@media all and (min-width : 320px) and (max-width : 768px) {
+
+    h3{
+        text-align: center;
+    }
+  
+    p{
+        text-align: center;
+    }
+  
+    /*videos*/
+    .videos{
+        width: 350px;
+        height: 250px;
+        
+    }
+  
+  
+  
+    /*ps4*/
+    .ps4-container{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+  
+  
+    .container-nosotros{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+  }
+  
+  
+  /*TABLET*/
+  
+  @media all and (min-width : 768px) and (max-width : 1300px) {
+    .container-nosotros{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+  }
