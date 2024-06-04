@@ -1,0 +1,46 @@
+//variables
+
+@use 'query'; 
+
+$color-principal: black;
+$color-botones: rgb(255, 107, 21);
+
+//botones
+ .botones{
+    background-color: $color-botones;
+ }
+
+ .botones:hover{
+    color:$color-botones;
+ }
+
+
+ @mixin botones($color: white){
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+    text-decoration: none;
+ }
+
+
+ .botones{
+    @include botones();
+ }
+
+ //footer
+
+ footer{
+    ul{
+        list-style: none;
+        display: flex;
+        position: relative;
+    }a{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+ }
+ 
+
