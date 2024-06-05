@@ -6,6 +6,17 @@
   p {
     text-align: center;
   }
+
+  /*nosotros*/
+  .blog-items{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: beige;
+    margin-bottom: 20px;
+  }
+
+  
+
   /*videos*/
   .videos {
     width: 350px;
@@ -324,7 +335,7 @@ footer {
 
 /*juegos*/
 #box-video {
-  background-color: rgb(119, 118, 117);
+  background-color: rgb(85, 84, 83);
   text-align: center;
   padding: 100px;
   color: white;
