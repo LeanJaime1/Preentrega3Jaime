@@ -94,7 +94,6 @@ h1 {
 h2 {
   font-weight: bold;
   text-align: center;
-  padding: 50px;
 }
 
 /*nav*/
@@ -121,7 +120,6 @@ h2 {
   width: 100vw;
   max-width: 100%;
   min-width: 320;
-  margin: 10px 0px;
 }
 
 .imagen-banner img {
@@ -135,7 +133,6 @@ h2 {
 
 .ps5-card {
   border: none;
-  margin: 50px 0px;
 }
 
 #juegos-varios {
