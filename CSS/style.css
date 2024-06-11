@@ -6,21 +6,14 @@
   p {
     text-align: center;
   }
-
-  /*nosotros*/
-  .blog-items{
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: beige;
-    margin-bottom: 20px;
-  }
-
-  
-
   /*videos*/
   .videos {
     width: 350px;
     height: 250px;
+  }
+  /*juegos*/
+  #box-video {
+    background-color: black;
   }
   /*ps4*/
   .ps4-container {
@@ -42,8 +35,6 @@
     align-items: center;
   }
 }
-
-/*botones*/
 .botones {
   background-color: rgb(255, 107, 21);
 }
@@ -60,22 +51,7 @@
   text-decoration: none;
 }
 
-
-/*footer*/
-footer ul {
-  list-style: none;
-  display: flex;
-  position: relative;
-}
-footer a img {
-  width: 30px;
-  height: 30px;
-}
-
-
-
-
-/*generales*/
+/*GENERALES*/
 * {
   margin: 0px;
   padding: 0px;
@@ -99,31 +75,22 @@ h2 {
   text-align: center;
 }
 
-
-/*nav*/
+/*NAV*/
 .nav-link {
   font-weight: bold;
 }
 
 .nav-link:hover {
   -webkit-text-decoration: underline 3px rgb(255, 107, 21);
-          text-decoration: underline 3px rgb(255, 107, 21);
+  text-decoration: underline 3px rgb(255, 107, 21);
   transform: translateY(-2px);
 }
 
-/*botones*/
-.botones:hover {
-  background-color: white;
-  color: rgb(255, 107, 21);
-  border: solid rgb(255, 107, 21) 1px;
-  transition: all 0.5s ease;
-}
-
-/*index*/
+/*INDEX*/
 .imagen-banner {
   width: 100vw;
   max-width: 100%;
-  min-width: 320;
+  min-width: 320px;
 }
 
 .imagen-banner img {
@@ -132,7 +99,7 @@ h2 {
 
 .contenido-card {
   text-align: center;
-  margin: 50px;
+  margin: 5px;
 }
 
 .ps5-card {
@@ -143,39 +110,30 @@ h2 {
   background-color: black;
   padding: 10px;
 }
-
-#juegos-varios h2{
+#juegos-varios h2 {
   padding: 30px 10px;
+  color: white;
 }
-.card {
-  display: flex;
-  align-items: center;
-  align-content: center;
-}
-
 #juegos-varios h3 {
   color: white;
+  font-size: 15px;
 }
-
-#juegos-varios h2 {
-  color: white;
-}
-
 #juegos-varios img {
   max-width: 200px;
   min-width: 100px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  align-items: center;
 }
 
 .card-img-top:hover {
   transform: translateY(-5px);
 }
 
-#juegos-varios h3 {
-  font-size: 15px;
-}
-
-/*juegos*/
-
+/*JUEGOS*/
 #box-video {
   background-color: rgb(85, 84, 83);
   text-align: center;
@@ -189,13 +147,8 @@ h2 {
   margin-bottom: 60px;
 }
 
-.juegos-noticias h2{
-  margin-top: 30px;
-}
-
 #texto-ultimas-noticias {
   text-align: center;
-
 }
 
 .container-juegos {
@@ -214,12 +167,11 @@ h2 {
   box-shadow: 0px, 2px, 4px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
-
 .juegos-items img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .juegos-texto {
@@ -227,7 +179,7 @@ h2 {
   text-align: center;
 }
 
-/*noticias*/
+/*NOTICIAS*/
 .blog-container {
   display: flex;
   flex-direction: column;
@@ -247,11 +199,10 @@ h2 {
   text-align: center;
 }
 
-/*accesorios*/
+/*ACCESORIOS*/
 .intro-accesorios {
   text-align: center;
 }
-
 .intro-accesorios h1 {
   margin: 50px;
 }
@@ -271,12 +222,11 @@ h2 {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
-
 .accesorios-card img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .accesorios-texto {
@@ -286,7 +236,7 @@ h2 {
   text-align: center;
 }
 
-/*nosotros*/
+/*NOSOTROS*/
 .banner-nosotros {
   width: 100%;
   height: 300px;
@@ -307,7 +257,7 @@ h2 {
   align-items: flex-start;
 }
 
-/*ps4*/
+/*PS4*/
 .ps4-container {
   display: flex;
   justify-content: center;
@@ -334,7 +284,7 @@ h2 {
   margin-top: 50px;
 }
 
-/*footer*/
+/*FOOTER*/
 footer {
   background-color: rgb(181, 184, 184);
   display: flex;
@@ -348,6 +298,15 @@ footer {
   flex-direction: column;
   padding-bottom: 20px;
 }
+footer ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+footer a img {
+  width: 30px;
+  height: 30px;
+}
 
 .iconos-footer {
   margin: 0px 10px;
@@ -355,6 +314,4 @@ footer {
 
 .iconos-footer img:hover {
   transform: translateY(-2px);
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
