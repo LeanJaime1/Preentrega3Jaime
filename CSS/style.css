@@ -258,14 +258,21 @@ h2 {
 }
 
 /*NAV*/
+.navbar-nav {
+  background-color: rgb(159, 168, 168);
+  border-radius: 30px;
+}
+
 .nav-link {
   font-weight: bold;
+  color: white;
 }
 
 .nav-link:hover {
   -webkit-text-decoration: underline 3px rgb(255, 107, 21);
-  text-decoration: underline 3px rgb(255, 107, 21);
-  transform: translateY(-2px);
+  text-decoration: 3px rgb(255, 107, 21);
+  background-color: rgb(255, 107, 21);
+  border-radius: 20px;
 }
 
 /*FOOTER*/
