@@ -49,7 +49,6 @@ $texto-principal:Verdana, Geneva, Tahoma, sans-serif;
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
-   
 }
 
 body{
@@ -72,22 +71,15 @@ h2{
 
 /*NAV*/
 
-.navbar-nav{
-   background-color: rgb(159, 168, 168);
-   border-radius: 30px;
-   
-}
+
 
 .nav-link{
    font-weight: bold;
-   color: white;
 }
 
 .nav-link:hover{
    -webkit-text-decoration: underline 3px $color-botones;
-   text-decoration:  3px $color-botones;
-   background-color: $color-botones;
-   border-radius: 20px;
+   text-decoration: underline 3px $color-botones;
 }
 
 
