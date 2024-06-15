@@ -1,0 +1,55 @@
+/*INDEX*/
+.imagen-banner{
+    width: 100vw;
+    max-width: 100%;
+    min-width: 320px;
+    img{
+       width: 100%;
+    }
+ }
+ 
+ 
+ 
+ .contenido-card{
+    text-align: center;
+    margin: 5px;
+    
+ }
+ 
+ 
+ .ps5-card{
+    border: none;
+ }
+ 
+ 
+ #juegos-varios{
+    background-color: black;
+    padding: 10px;
+    h2{
+       padding: 30px 10px;
+       color: white;
+    }
+    h3{
+       color: white;
+       font-size: 15px;
+    }
+    img{
+       max-width: 200px;
+       min-width: 100px;
+       object-fit: cover;
+    }
+ }
+ 
+ .card{
+    display: flex;
+    align-items: center;
+    align-items: center;
+ }
+ 
+ .card-img-top:hover{
+    transform: scale(1.1);
+    box-shadow: -1px -1px 47px -11px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px -1px 47px -11px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px -1px 47px -11px rgba(255,255,255,0.75);
+ }
+ 

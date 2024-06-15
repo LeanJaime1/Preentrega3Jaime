@@ -1,0 +1,48 @@
+
+/*JUEGOS*/
+#box-video{
+    background-color:rgb(85, 84, 83) ;
+    text-align: center;
+    padding: 20px;
+    color: white;
+ }
+ 
+ #video{
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+ }
+ 
+ #texto-ultimas-noticias{
+    text-align: center;
+ }
+ 
+ .container-juegos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ 
+ .juegos-items {
+    width: 325px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px, 2px, 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    img{
+       width: 100%;
+       height: auto;
+       -o-object-fit: cover;
+       object-fit: cover;
+    }
+ }
+ 
+ 
+ .juegos-texto{
+    padding: 20px;
+    text-align:center;
+ }
+ 

@@ -1,0 +1,27 @@
+ /*PS4*/
+ .ps4-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  
+  .ps4-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .container-hits {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .hits-item {
+    border: 0px white;
+  }
+  
+  .ps4-texto {
+    text-align: center;
+    margin-top: 50px;
+  }
+ 

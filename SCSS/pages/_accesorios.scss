@@ -1,0 +1,38 @@
+ /*ACCESORIOS*/
+ .intro-accesorios {
+    text-align: center;
+    h1{
+       margin: 50px;
+    }
+  }
+ 
+ 
+  .container-accesorios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .accesorios-card {
+    width: 325px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    img{
+       width: 100%;
+       height: auto;
+       -o-object-fit: cover;
+       object-fit: cover;
+    }
+  }
+ 
+  .accesorios-texto {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+ 
